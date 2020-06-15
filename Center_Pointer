@@ -6,12 +6,14 @@
         <style>
             #target {
                 width: 550px;
-                height: 400px;
+                height: 100px;
             }
         </style>
     </head>
     <body>
+       
         <div id="target"></div>
+        <h3>郵便番号を入力してください。その周辺の地図が表示されます。</h3>
         <input type="text" id="address">
         <button id="search">Search</button>
 
